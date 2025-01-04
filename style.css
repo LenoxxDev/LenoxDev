@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    color: purple;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(78, 9, 121, 1) 50%, rgba(2, 0, 36, 1) 100%);
+    font-weight: 400;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    font-optical-sizing: auto;
+    width: 10rem;
+    padding: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+    background-color: #150f1a;
+    border-radius: 8px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: purple;
+}
+
+#main{
+    font-size: 200%;
+    color: #150f1a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    height: 10rem;
+}
